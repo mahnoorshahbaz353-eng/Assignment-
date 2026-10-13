@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+
+    <style>
+body {
+  background-color: #cfe5e3;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 10px;
+}
+
+#wrapper {
+  width: 700px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
+}
+
+#header {
+  background-color: #a8ece8;
+  text-align: right;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#header h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #1a5f6a;
+  margin: 0;
+}
+
+#header p {
+  font-size: 11px;
+  color: #666666;
+  margin: 0;
+}
+
+.box {
+  background-color: #e8fbfa;
+  border: 2px solid #33ccc0;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#friends {
+  float: left;
+  width: 130px;
+  background-color: #33ddd0;
+  border: 3px solid #1a9e94;
+  margin-right: 10px;
+}
+
+#friends h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #e8fbfa;
+  margin: 0 0 5px 0;
+}
+
+#friends ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+#friends a {
+  color: #1a5f6a;
+  font-weight: bold;
+}
+
+.entry {
+  margin-left: 160px;
+}
+
+.entry h3 {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #1a5f6a;
+  border-bottom: 1px dashed #1a5f6a;
+  margin: 0 0 5px 0;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.photo {
+  float: right;
+  border: 1px solid #33ccc0;
+  margin: 0 0 5px 10px;
+  padding: 2px;
+}
+
+.entry p {
+  margin: 0;
+}
+</style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="header">
+            <h1>My Blog</h1>
+            <p>Welcome to my personal blog!</p>
+        </div>
+
+        <div id="friends" class="box">
+            <h2>My Friends</h2>
+            <ul>
+                <li><a href="#">Ali</a></li>
+                <li><a href="#">Ahmed</a></li>
+                <li><a href="#">Sara</a></li>
+                <li><a href="#">Ayesha</a></li>
+            </ul>
+        </div>
+
+        <div class="entry box">
+            <h3>My First Blog Post</h3>
+            <p class="date">October 13, 2026</p>
+            <p>
+                Welcome to my first blog post. This is where I share
+                my thoughts, experiences, and daily activities.
+            </p>
+        </div>
+
+        <div class="entry box">
+            <h3>My Second Blog Post</h3>
+            <p class="date">October 13, 2026</p>
+            <p>
+                Today I am learning HTML and CSS to create
+                attractive and well-organized webpages.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

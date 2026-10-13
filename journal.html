@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Victoria's Journal</title>
+
+    <style>
+body {
+  background-color: #cfe5e3;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+}
+
+#wrapper {
+  width: 500px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
+}
+
+#header {
+  background-color: #a8ece8;
+  text-align: right;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#header h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #1a5f6a;
+  margin: 0;
+}
+
+#header p {
+  font-size: 13px;
+  color: #666666;
+  margin: 0;
+}
+
+.box {
+  background-color: #e8fbfa;
+  border: 2px solid #33ccc0;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#friends {
+  float: left;
+  width: 115px;
+  background-color: #33ddd0;
+  border: 3px solid #1a9e94;
+  margin-right: 7px;
+}
+
+#friends h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #e8fbfa;
+  margin: 0 0 5px 0;
+}
+
+#friends ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+#friends a {
+  color: #1a5f6a;
+  font-weight: bold;
+}
+
+.entry {
+  margin-left: 133px;
+overflow:auto;
+}
+
+.entry h3 {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #1a5f6a;
+  border-bottom: 1px dashed #1a5f6a;
+  margin: 0 0 5px 0;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.photo {
+    float: right;
+    width: 105px;
+    height: auto;
+    border: 1px solid #33ccc0;
+    margin: 0 0 5px 8px;
+    padding: 2px;
+}
+
+.entry p {
+color: #b18b8b;
+  margin: 0;
+}
+ .highlight {
+            color: #33aaa8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Header section -->
+        <div id="header">
+            <h1>Victoria's Journal</h1>
+            <p>So fresh and so clean</p>
+        </div>
+
+        <!-- Friends sidebar -->
+        <div id="friends" class="box">
+            <h2>Friends</h2>
+
+            <ul>
+                <li><a href="#">390 Buddies</a></li>
+                <li><a href="#">Big Will</a></li>
+                <li><a href="#">Conan the Librarian</a></li>
+            </ul>
+        </div>
+
+        <!-- First journal entry -->
+        <div class="entry box">
+
+            <h3>
+                <span class="date">04/09/08:</span>
+                Spatulas
+            </h3>
+
+            <img src="spatula.png"
+                 alt="A spatula"
+                 class="photo">
+
+            <p>
+                Yesterday, I went to the store and got some
+                much needed spatulas! (What better way to say
+                I love myself than to buy myself a spatula?)
+            </p>
+
+        </div>
+
+        <!-- Second journal entry -->
+        <div class="entry box">
+
+            <h3>
+                <span class="date">04/08/08:</span>
+                Cookie Cupcakes
+            </h3>
+
+            <img src="cupcakes.png"
+                 alt="Cookie cupcakes"
+                 class="photo">
+
+            <p>
+                My favorite cartoon character is
+                <span class="highlight">cookie</span>, and my
+                favorite dessert is cupcakes. So Cookie Cupcakes
+                are best of both the worlds. Did you know?
+                Cookie character once said, "Sometimes me think
+                what is love, and then me think love is what
+                cookie is for. Me give up the last cookie for you."
+                I wonder if the same applies for the cupcakes?
+                (If so, I don't think I can ever love ANYONE!)
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
